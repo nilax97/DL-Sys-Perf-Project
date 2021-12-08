@@ -777,7 +777,7 @@ def create_base_params(params):
 
 def create_base_fc_config(params):
     config = dict()
-    config['input_shape'] = params['input_shape']
+    config['input_shape'] = [params['input_shape']]
     config['input_dropout'] = 0.2
     config['dropout'] = 0.5
 
