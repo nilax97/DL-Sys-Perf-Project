@@ -13,3 +13,39 @@
 3. Correlation between model parameters is mostly an unknown for different CNNs and FC networks.
 
 ![alt text](Pipeline.png)
+
+## Repository 
+
+```
+AllRunsv2.0.ipynb
+```
+Creating the different models, running the different models, and saving the running time as pickle files.
+
+
+```
+Analysis_v4_0.ipynb
+```
+Analyzing the various results, plotting the correlational graphs etc.
+
+
+```
+UI_v2.0.ipynb
+```
+The final notebook to run the UI and the benchmarking calculator.
+
+
+## Results
+
+### Models generated
+
+VGG Model
+![alt text](src/models/vgg.png)
+
+Resnet Model
+![alt text](src/models/resnet.png)
+
+Inception Model
+![alt text](src/models/inception.png)
+
+Fully Connected Model
+![alt text](src/models/fc.png)
