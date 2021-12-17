@@ -75,11 +75,11 @@ Inception Analysis
 
 ![alt text](Visualizations/Inception_aux_vars_data_vs.png)
 
-Fully Connected Analysis 
+<!-- Fully Connected Analysis 
 
 ![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png)
 
-![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png)
+![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png) -->
 
 ### Demo
 
