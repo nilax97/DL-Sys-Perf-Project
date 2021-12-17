@@ -80,3 +80,24 @@ Fully Connected Analysis
 ![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png)
 
 ![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png)
+
+### Demo
+
+![alt text](vgg_demo.png)
+
+![alt text](resnet_demo.png)
+
+![alt text](inception_demo.png)
+
+![alt text](fc_demo.png)
+
+## Conclusions
+
+1. Based on the results we got, we can successfully model the training time and cost based on model parameters provided by the user without no memory and disk considerations. 
+
+2. Also, we could successfully find correlations between various model parameters that could be mapped to the training time and costs.
+This can be quite easily extended to multiple GPUs to create a larger database of the model parameterizations vs. training time and costs. (if we get the GPUs!)
+
+3. Also, this can be extended to include multiple cloud providers to create a complete database of models vs. model configurations vs. GPUs vs. cloud providers that could help a lot of people to find which all configurations to consider without incurring any costs.
+
+4. Such a benchmarking tool can also help many companies in finding the best approach for their projects and thus, save a lot of time and resources.
