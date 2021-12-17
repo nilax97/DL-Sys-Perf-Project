@@ -77,6 +77,6 @@ Inception Analysis
 
 Fully Connected Analysis 
 
-![alt text](Visualizations/Fully Connected_aux_vars_data_vs.png)
+![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png)
 
-![alt text](Visualizations/Fully Connected_aux_vars_data_vs.png)
+![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png)
