@@ -189,3 +189,36 @@ Traceback (most recent call last):
     fd_event_list = self._selector.poll(timeout, max_ev)
 KeyboardInterrupt
 [IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 21:00:22.582 NotebookApp] [nb_conda_kernels] enabled, 1 kernels found
+[W 2021-12-17 21:00:24.705 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2021-12-17 21:00:24.708 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-17 21:00:24.708 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-17 21:00:24.708 LabApp] 'password_required' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-17 21:00:24.708 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-17 21:00:24.708 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-17 21:00:24.708 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-17 21:00:24.709 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[I 2021-12-17 21:00:24.716 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 2021-12-17 21:00:24.716 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 21:00:24.812 NotebookApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 21:00:24.816 NotebookApp] [nb_conda] enabled
+/opt/conda/lib/python3.7/site-packages/jupyter_server_mathjax/app.py:40: FutureWarning: The alias `_()` will be deprecated. Use `_i18n()` instead.
+  help=_("""The MathJax.js configuration file that is to be used."""),
+[I 21:00:24.874 NotebookApp] Serving notebooks from local directory: /mnt/disks/disk-1/DL-Sys-Perf-Project
+[I 21:00:24.874 NotebookApp] Jupyter Notebook 6.4.6 is running at:
+[I 21:00:24.874 NotebookApp] http://instance-1:8888/
+[I 21:00:24.874 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 21:00:30.882 NotebookApp] 302 GET / (122.173.185.181) 0.890000ms
+[I 21:03:57.373 NotebookApp] Kernel started: 35e227b4-86bb-4f72-b1ca-00875e3b3201, name: python3
+[W 21:05:36.401 NotebookApp] Notebook AllRunsv2.0.ipynb is not trusted
+[I 21:05:37.940 NotebookApp] Kernel started: 5bea8b3b-9def-44be-8df8-e9dac4700c75, name: python3
+[I 21:07:48.766 NotebookApp] Starting buffering for 35e227b4-86bb-4f72-b1ca-00875e3b3201:8a1fce339dfa42ca97a8520906d98a81
+[I 21:07:48.980 NotebookApp] Kernel restarted: 35e227b4-86bb-4f72-b1ca-00875e3b3201
+[I 21:07:49.468 NotebookApp] Restoring connection for 35e227b4-86bb-4f72-b1ca-00875e3b3201:8a1fce339dfa42ca97a8520906d98a81
+[I 21:07:49.974 NotebookApp] Replaying 3 buffered messages
+[I 21:07:52.456 NotebookApp] Starting buffering for 35e227b4-86bb-4f72-b1ca-00875e3b3201:8a1fce339dfa42ca97a8520906d98a81
+[I 21:07:52.670 NotebookApp] Kernel restarted: 35e227b4-86bb-4f72-b1ca-00875e3b3201
+[I 21:07:53.156 NotebookApp] Restoring connection for 35e227b4-86bb-4f72-b1ca-00875e3b3201:8a1fce339dfa42ca97a8520906d98a81
+[I 21:07:53.340 NotebookApp] Replaying 3 buffered messages
+[I 21:07:58.101 NotebookApp] Saving file at /UI_v2.0.ipynb
+[I 21:07:58.102 NotebookApp] Saving UI_v2.0.ipynb
