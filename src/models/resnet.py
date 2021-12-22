@@ -119,4 +119,4 @@ def visualize_resnet_config():
     # All hidden layers activated with ReLU
     # Optimizer is always sgd with lr = 0.01 and momentum=0.9
 
-    return tf.keras.utils.plot_model(resnet_model,show_shapes=True,to_file="resnet.png")
+    return tf.keras.utils.plot_model(resnet_model,show_shapes=True,to_file="results/viz_resnet.png")

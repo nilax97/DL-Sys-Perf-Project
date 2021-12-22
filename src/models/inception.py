@@ -75,4 +75,4 @@ def visualize_inception_config():
 
     inception_model = create_inception(inception_config)
 
-    return tf.keras.utils.plot_model(inception_model,show_shapes=True,to_file="inception.png")
+    return tf.keras.utils.plot_model(inception_model,show_shapes=True,to_file="results/viz_inception.png")

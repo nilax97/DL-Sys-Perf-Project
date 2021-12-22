@@ -21,7 +21,7 @@ def get_time_train_data(model_type,folder_name):
     for key in params:
         base_param = create_base_params(params)
         for value in params[key]:
-            filename = f'{folder}/{model_type}/{model_type}-{key}-{value}.pickle'
+            filename = f'{folder_name}/{model_type}/{model_type}-{key}-{value}.pickle'
             if os.path.exists(filename):
                 with open(filename, 'rb') as handle:
                     output_config = pickle.load(handle)

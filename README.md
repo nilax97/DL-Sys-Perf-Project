@@ -4,6 +4,8 @@
 
 #### Course project for COMSE6998_012_2021 - RACTICAL DEEP LEARNING SYSTEM PERFORMANCE under Prof. Parijat Due
 
+---
+
 ## Motivation:
 
 1. Very hard to gauge training time for a model based on the model parameters & GPU.
@@ -12,27 +14,40 @@
 
 3. Correlation between model parameters is mostly an unknown for different CNNs and FC networks.
 
-![alt text](Pipeline.png)
+![alt text](files/Pipeline.png)
+
+---
 
 ## Repository 
 
 ```
-AllRunsv2.0.ipynb
+cd src
+python visualize.py
+```
+Visualizing the different types of models possible with our benchmarking tool
+
+```
+cd src
+python experiment.py
 ```
 Creating the different models, running the different models, and saving the running time as pickle files.
 
 
 ```
-Analysis_v4_0.ipynb
+cd src
+python analysis.py
 ```
 Analyzing the various results, plotting the correlational graphs etc.
 
 
 ```
-UI_v2.0.ipynb
+cd src
+jupyter notebook
+## Click : UI.ipynb
 ```
 The final notebook to run the UI and the benchmarking calculator.
 
+---
 
 ## Results
 
@@ -40,56 +55,62 @@ The final notebook to run the UI and the benchmarking calculator.
 
 VGG Model
 
-![alt text](src/models/vgg.png)
+![alt text](src/results/viz_vgg.png)
 
 Resnet Model
 
-![alt text](src/models/resnet.png)
+![alt text](src/results/viz_resnet.png)
 
 Inception Model
 
-![alt text](src/models/inception.png)
+![alt text](src/results/viz_inception.png)
 
 Fully Connected Model
 
-![alt text](src/models/fc.png)
+![alt text](src/results/viz_fc.png)
 
+
+---
 
 ### Analysis 
 
 VGG Analysis 
 
-![alt text](Visualizations/VGG_data_vs.png)
+![alt text](src/results/vgg_plot_vs.png)
 
-![alt text](Visualizations/VGG_aux_vars_data_vs.png)
+![alt text](src/results/vgg_plot_vs_aux.png)
 
 ResNet Analysis 
 
-![alt text](Visualizations/ResNet_data_vs.png)
+![alt text](src/results/resnet_plot_vs.png)
 
-![alt text](Visualizations/ResNet_aux_vars_data_vs.png)
+![alt text](src/results/resnet_plot_vs_aux.png)
 
 Inception Analysis 
 
-![alt text](Visualizations/Inception_data_vs.png)
+![alt text](src/results/inception_plot_vs.png)
 
-![alt text](Visualizations/Inception_aux_vars_data_vs.png)
+![alt text](src/results/inception_plot_vs_aux.png)
 
-<!-- Fully Connected Analysis 
+Fully Connected Analysis 
 
-![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png)
+![alt text](src/results/fc_plot_vs.png)
 
-![alt text](Visualizations/Fully\ Connected_aux_vars_data_vs.png) -->
+![alt text](src/results/fc_plot_vs_aux.png)
+
+---
 
 ### Demo
 
-![alt text](vgg_demo.png)
+![alt text](files/vgg_demo.png)
 
-![alt text](resnet_demo.png)
+![alt text](files/resnet_demo.png)
 
-![alt text](inception_demo.png)
+![alt text](files/inception_demo.png)
 
-![alt text](fc_demo.png)
+![alt text](files/fc_demo.png)
+
+---
 
 ## Conclusions
 

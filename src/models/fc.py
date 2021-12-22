@@ -39,4 +39,4 @@ def visualize_fc_config():
 
     fc_model = create_fc(fc_config)
 
-    return tf.keras.utils.plot_model(fc_model,show_shapes=True,to_file="fc.png")
+    return tf.keras.utils.plot_model(fc_model,show_shapes=True,to_file="results/viz_fc.png")

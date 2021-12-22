@@ -1,7 +1,7 @@
-from fc import *
-from vgg import *
-from resnet import *
-from inception import *
+from models.fc import *
+from models.vgg import *
+from models.resnet import *
+from models.inception import *
 
 def create_model():
     model_creator = dict()

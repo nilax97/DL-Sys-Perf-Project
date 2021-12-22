@@ -46,4 +46,4 @@ def visualize_vgg_config():
 
     vgg_model = create_vgg(vgg_config)
 
-    return tf.keras.utils.plot_model(vgg_model,show_shapes=True,to_file="vgg.png")
+    return tf.keras.utils.plot_model(vgg_model,show_shapes=True,to_file="results/viz_vgg.png")
