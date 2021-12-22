@@ -53,50 +53,75 @@ The final notebook to run the UI and the benchmarking calculator.
 
 ### Models generated
 
-VGG Model
+<details>
+<summary>VGG Model</summary>
 
 ![alt text](src/results/viz_vgg.png)
 
-Resnet Model
+</details>
+
+<details>
+<summary>ResNet Model</summary>
 
 ![alt text](src/results/viz_resnet.png)
 
-Inception Model
+</details>
+
+<details>
+<summary>Inception Model</summary>
 
 ![alt text](src/results/viz_inception.png)
 
-Fully Connected Model
+</details>
+
+<details>
+<summary>Fully Connected Model</summary>
 
 ![alt text](src/results/viz_fc.png)
+
+</details>
 
 
 ---
 
 ### Analysis 
 
-VGG Analysis 
+<details>
+<summary>VGG Analysis</summary>
 
 ![alt text](src/results/vgg_plot_vs.png)
 
 ![alt text](src/results/vgg_plot_vs_aux.png)
 
-ResNet Analysis 
+</details>
+
+<details>
+<summary>ResNet Analysis</summary>
 
 ![alt text](src/results/resnet_plot_vs.png)
 
 ![alt text](src/results/resnet_plot_vs_aux.png)
 
-Inception Analysis 
+</details>
+
+<details>
+<summary>Inception Analysis</summary>
 
 ![alt text](src/results/inception_plot_vs.png)
 
 ![alt text](src/results/inception_plot_vs_aux.png)
 
-Fully Connected Analysis 
+</details>
+
+<details>
+<summary>Fully Connected Analysis</summary>
+
 
 ![alt text](src/results/fc_plot_vs.png)
 
 ![alt text](src/results/fc_plot_vs_aux.png)
+
+</details>
 
 ---
 
